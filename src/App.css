@@ -1,10 +1,15 @@
-nav {
+.mainNav {
   background-color: blue;
   padding: 15px 30px;
 }
 
-nav a {
+.mainNav a {
   color: white;
   text-decoration: none;
   margin-right: 28px;
+}
+
+.mainNav a.active {
+  font-weight: bold;
+  font-size: 20px;
 }
